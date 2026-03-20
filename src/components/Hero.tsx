@@ -22,7 +22,7 @@ export function Hero() {
           <strong>Kids Fit Família</strong> — o programa que mães estão usando para transformar seus filhos de forma{' '}
           <strong>saudável, feliz e sem guerra na mesa.</strong>
         </p>
-        <div className="hero-img-ph" style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
+        <div className="hero-video">
           <iframe
             src="https://player.vimeo.com/video/1175572032?badge=0&autopause=0&player_id=0&app_id=58479"
             frameBorder="0"
