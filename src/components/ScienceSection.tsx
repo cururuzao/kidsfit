@@ -5,7 +5,7 @@ export function ScienceSection() {
         <div className="science-box">
           <div className="sci-icon">🔬</div>
           <div>
-            <h3>Por que o Kids Fit Família funciona quando tudo o mais falha?</h3>
+            <h3>Por que o Kids Fit funciona quando tudo o mais falha?</h3>
             <p>
               A maioria das abordagens trata a criança como um adulto pequeno — e erra feio. Nosso método é construído sobre princípios de{' '}
               <strong>psicologia do comportamento alimentar infantil</strong>, <strong>neurociência do hábito</strong> e{' '}

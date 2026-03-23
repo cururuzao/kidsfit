@@ -2,15 +2,10 @@ export function SolutionSection() {
   return (
     <section className="sec" style={{ background: 'var(--white)' }}>
       <div className="wrap-lg reveal">
-        <div className="sol-inner">
-          <div className="sol-img">
-            <span className="phi">🥦🥕🍓</span>
-            [imagem das receitas coloridas]
-          </div>
-          <div>
+        <div>
             <div className="chip chip-teal" style={{ marginBottom: 14 }}>💡 A solução que funciona</div>
             <h2 className="title">
-              Kids Fit Família:<br />
+              Kids Fit:<br />
               o programa <em>100% online</em><br />
               para crianças de 5 a 14 anos
             </h2>
@@ -25,7 +20,6 @@ export function SolutionSection() {
               <li><div className="ck">✓</div>Sistema de gamificação que mantém seu filho <strong>motivado sozinho</strong></li>
             </ul>
           </div>
-        </div>
       </div>
     </section>
   )

@@ -1,7 +1,8 @@
-import { useScrollToCheckout } from '../hooks/useScrollToCheckout'
-
 export function Hero() {
-  const scrollTo = useScrollToCheckout()
+  const scrollToPlanos = (e: React.MouseEvent) => {
+    e.preventDefault()
+    document.getElementById('planos')?.scrollIntoView({ behavior: 'smooth' })
+  }
 
   return (
     <section className="hero">
@@ -19,9 +20,10 @@ export function Hero() {
           <strong>Em 30-60 dias ele pode mudar.</strong>
         </h1>
         <p className="hero-sub">
-          <strong>Kids Fit Família</strong> — o programa que mães estão usando para transformar seus filhos de forma{' '}
+          <strong>Kids Fit</strong> — o programa que mães estão usando para transformar seus filhos de forma{' '}
           <strong>saudável, feliz e sem guerra na mesa.</strong>
         </p>
+        <p className="hero-vsl-title">👩‍⚕️ Veja o que a nossa especialista fala sobre</p>
         <div className="hero-video">
           <iframe
             src="https://player.vimeo.com/video/1175572032?badge=0&autopause=0&player_id=0&app_id=58479"
@@ -32,7 +34,7 @@ export function Hero() {
             title="video (28)"
           />
         </div>
-        <a href="#checkout" className="btn-hero" onClick={scrollTo}>
+        <a href="#planos" className="btn-hero" onClick={scrollToPlanos}>
           SIM — QUERO MEU FILHO MAIS SAUDÁVEL
           <small>🔒 Acesso imediato · Garantia incondicional de 30 dias</small>
         </a>

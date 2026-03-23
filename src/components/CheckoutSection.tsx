@@ -9,7 +9,7 @@ export function CheckoutSection() {
         <h3>Seus dados</h3>
         <p className="sub">Preencha abaixo para garantir sua vaga com 80% de desconto.</p>
         <div className="price-summary">
-          <span className="pn">Kids Fit Família + R$ 291 em Bônus</span>
+          <span className="pn">Kids Fit + R$ 291 em Bônus</span>
           <span className="pv">R$ 47,00</span>
         </div>
         <div className="form-row">

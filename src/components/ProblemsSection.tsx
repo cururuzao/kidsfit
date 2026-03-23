@@ -57,7 +57,7 @@ export function ProblemsSection() {
             <em>não é falta de força de vontade — é falta do método certo.</em>
           </h3>
           <p style={{ marginTop: 10 }}>
-            O Kids Fit Família foi criado exatamente para isso: um sistema passo a passo baseado em ciência que transforma a relação do seu filho com comida e movimento — sem trauma, sem pressão, sem culpa.
+            O Kids Fit foi criado exatamente para isso: um sistema passo a passo baseado em ciência que transforma a relação do seu filho com comida e movimento — sem trauma, sem pressão, sem culpa.
           </p>
         </div>
       </div>

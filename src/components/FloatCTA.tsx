@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react'
-import { useScrollToCheckout } from '../hooks/useScrollToCheckout'
 
 export function FloatCTA() {
   const [visible, setVisible] = useState(false)
-  const scrollTo = useScrollToCheckout()
 
   useEffect(() => {
     const handler = () => setVisible(window.scrollY > 700)
@@ -11,13 +9,19 @@ export function FloatCTA() {
     return () => window.removeEventListener('scroll', handler)
   }, [])
 
+  const scrollToPlanos = (e: React.MouseEvent) => {
+    e.preventDefault()
+    document.getElementById('planos')?.scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
-    <button
+    <a
+      href="#planos"
       className="float-cta"
       style={{ display: visible ? 'block' : 'none' }}
-      onClick={scrollTo}
+      onClick={scrollToPlanos}
     >
-      🛒 Garantir vaga com 80% OFF
-    </button>
+      🛒 Garantir vaga com até 80% OFF
+    </a>
   )
 }

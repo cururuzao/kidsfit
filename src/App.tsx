@@ -17,7 +17,7 @@ import { PricingSection } from './components/PricingSection'
 import { GuaranteeSection } from './components/GuaranteeSection'
 import { FaqSection } from './components/FaqSection'
 import { FinalCTASection } from './components/FinalCTASection'
-import { CheckoutSection } from './components/CheckoutSection'
+import { CTABanner } from './components/CTABanner'
 import { Footer } from './components/Footer'
 
 function App() {
@@ -33,17 +33,18 @@ function App() {
       <ProblemsSection />
       <CredentialsBar />
       <SolutionSection />
+      <CTABanner />
       <ScienceSection />
       <ModulesSection />
       <IncludesSection />
       <BonusSection />
+      <CTABanner />
       <TestimonialsSection />
       <UrgencyStrip />
       <PricingSection />
       <GuaranteeSection />
       <FaqSection />
       <FinalCTASection />
-      <CheckoutSection />
       <Footer />
     </div>
   )
