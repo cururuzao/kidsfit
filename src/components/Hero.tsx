@@ -36,7 +36,6 @@ export function Hero() {
         </div>
         <a href="#planos" className="btn-hero" onClick={scrollToPlanos}>
           SIM — QUERO MEU FILHO MAIS SAUDÁVEL
-          <small>🔒 Acesso imediato · Garantia incondicional de 30 dias</small>
         </a>
         <div className="hero-trust">
           <div className="trust-pill">✅ 100% Online</div>

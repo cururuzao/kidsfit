@@ -9,7 +9,6 @@ export function CTABanner() {
       <div className="wrap-md center">
         <a href="#planos" className="btn-hero" onClick={scrollToPlanos}>
           🛒 QUERO MEU FILHO MAIS SAUDÁVEL
-          <small>⚡ Veja os planos · 🛡️ Garantia 30 dias · 🔒 Compra 100% segura</small>
         </a>
       </div>
     </section>

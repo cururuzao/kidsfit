@@ -19,7 +19,6 @@ export function FinalCTASection() {
           onClick={scrollToPlanos}
         >
           🛒 QUERO VER OS PLANOS
-          <small>⚡ A partir de R$ 27 · 🛡️ Garantia 30 dias · 🔒 Compra 100% segura</small>
         </a>
       </div>
     </section>
